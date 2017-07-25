@@ -1,0 +1,28 @@
+(use 'guestbook.repl)
+(start-server)
+(start-server 9090)
+(man start-server)
+(start-server "9090")
+exit
+(use 'guestbook.models.db)
+(create-guestbook-table)
+(use 'guestbook.repl)
+(start-server "9090")
+(use 'guestbook.repl)
+(use 'guestbook.models.db)
+(save-message "Bob" "hello")
+exit
+(use 'guestbook.repl)
+(use 'guestbook.routes.home)
+exit
+(use 'guestbook.repl)
+(start-server "9090")
+(use 'src.guestbook.repl)
+(use 'guestbook.repl)
+exit
+(use 'guestbook.repl)
+(create-user-table)
+(use 'guestbook.models.db)
+(create-user-table)
+(start-server)
+exit
