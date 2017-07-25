@@ -1,6 +1,6 @@
 # guestbook
 
-FIXME
+Just the outcome from chapters 1 and 2 from the book Web Development with Clojure, by Dmitri Sotnikovi.
 
 ## Prerequisites
 
